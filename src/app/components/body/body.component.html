@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col">
-        <h1>*ngIf</h1>
+        <h1>Directiva *ngIf</h1>
         <hr>
         <div *ngIf="mostrar" class="card text-white bg-primary mb-3" style="width: 100%;">
             <div class="card-body">
@@ -11,7 +11,7 @@
         <button (click)="mostrar = !mostrar" class="btn btn-outline-primary btn-block">Mostrar / Ocultar</button>
     </div>
     <div class="col">
-        <h1>*ngFor</h1>
+        <h1>Directiva *ngFor</h1>
         <hr>
         <ul class="list-group">
             <li *ngFor="let personaje of personajes; let i = index" class="list-group-item">{{i+1}} - {{personaje}}</li>
